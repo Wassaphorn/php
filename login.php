@@ -21,10 +21,12 @@
 
 
     <div class="container">
-         <img src="./image/นายกหมีใจดี.png" height="250px"> <img
-            src="./image/คุณฟรออ๊อกนักการเมือง.png" height="250px">
+        
         <div class="row justify-content-center">
-            <div class="col-md-4">
+        <img src="./image/ป้ายlogin.png" height=>
+</div>
+        <div class="row justify-content-center">
+        <div class="col-md-4">
                 <h1> เข้าสู่ระบบ </h1>
                 <form action="check.php" method="POST">
                     Username:

@@ -15,25 +15,26 @@
     <script src="./js/popper.js"> </script>
     <script src="./js/bootstrap.js"> </script>
 
+    
 </head>
 
 <body>
 
 
-                <?php
+    <?php
     include "./navbar.php";
     
     echo "<h1>ยินดีต้อนรับเข้าสู่ลูปแห่งความวุ่นวาย</h1>" ;
-    echo " $_SESSION[username]";
+    echo "<h2> $_SESSION[username]</h2>";
     
 
 
 ?>
-<?php
-echo "</br>" ?>
-                <img src="./image/นายกหมีใจดี.png" height="250px">
-                <img src="./image/คุณฟรออ๊อกนักการเมือง.png" height="250px">
-           
+    <?php
+    echo "</br>" ?>
+    <img src="./image/นายกหมีใจดี.png" height="250px">
+    <img src="./image/คุณฟรออ๊อกนักการเมือง.png" height="250px">
+
 
 
 </body>
