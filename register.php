@@ -39,9 +39,8 @@
                     email:
                     <input type="text" name="email" class="form-control" />
                     ถิ่นที่อยู่:
-
-
                     <textarea name="address" row="4" class="form-control"></textarea>
+
                     <div class="pt-2 d-grid">
                         <input type="submit" value="บันทึกข้อมูล" class="btn btn-primary" />
                     </div>

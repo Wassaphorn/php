@@ -1,6 +1,12 @@
 <?php
     session_start();
+    
 ?>
+<link rel="stylesheet" href="./css/bootstrap.css" />
+    <script src="./js/popper.js"> </script>
+    <script src="./js/bootstrap.js"> </script>
+
+
 
 <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
