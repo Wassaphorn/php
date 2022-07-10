@@ -18,9 +18,11 @@
     include "./navbar.php";
     
     ?>
+    <div class="container">
     <h1> เกี่ยวกับหมู่เฮา </h1>
     <a href="./index.php"> กลับหน้าบ้าน </a>
-
+</div>
+    
 </body>
 
 </html>
