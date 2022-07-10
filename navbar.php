@@ -35,14 +35,14 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link  ">disabled</a>
+                    <a class="nav-link" href="payment.php">แจ้งชำระเงิน</a>
                 </li>
             </ul>
 
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
                 <?php
-                if(SESSION['username']){
+                if($_SESSION['username']){
                 ?>
  <li class="nav-item">
                     <a class="nav-link" href="./proflie.php">โปรไฟล์</a>
@@ -54,6 +54,7 @@
                 <?php
                 }else{
                 ?>
+
  <li class="nav-item">
                     <a class="nav-link" href="./register.php">สมัครสมาชิก</a>
                 </li>

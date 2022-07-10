@@ -16,11 +16,13 @@
 
     <?php
     include "./navbar.php";
-    
     ?>
+
+<divclass="containeer">
     <h1> ติดต่อเฮา </h1>
     <a href="./index.php"> กลับหน้าบ้าน </a>
 
+</div>
 </body>
 
 </html>

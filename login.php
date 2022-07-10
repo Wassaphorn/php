@@ -20,7 +20,8 @@
     ?>
 
 
-    <div class="container"> <img src="./image/นายกหมีใจดี.png" height="250px"> <img
+    <div class="container">
+         <img src="./image/นายกหมีใจดี.png" height="250px"> <img
             src="./image/คุณฟรออ๊อกนักการเมือง.png" height="250px">
         <div class="row justify-content-center">
             <div class="col-md-4">

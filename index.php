@@ -16,6 +16,10 @@
 
     <?php
     include "./navbar.php";
+    ?>
+
+    <div class="container">
+        <?php
     echo "ยินดีต้อนรับเข้าสู่ลูปแห่งความวุ่นวาย" ;
     echo "<h1> Welcome stranger </h1>" ;
     echo "<a href=' ./about.php'> เกี่ยวกับเฮา </a> "."<br/>";
@@ -50,7 +54,7 @@ echo "ลิงก์ไปยัง". WEBBY;
 ?>
 
 
-
+</div>
 </body>
 
 </html>
