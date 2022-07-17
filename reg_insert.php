@@ -8,6 +8,8 @@ $email = $_POST['email'];
 $address = $_POST['address'];
 
 
+//select star ไม่ให้เมลซ้ำกัน
+
 if(!empty($username) && !empty($password) && !empty($email)){
 
 $sql = "INSERT INTO users

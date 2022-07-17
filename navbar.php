@@ -3,8 +3,8 @@
     
 ?>
 <link rel="stylesheet" href="./css/bootstrap.css" />
-    <script src="./js/popper.js"> </script>
-    <script src="./js/bootstrap.js"> </script>
+<script src="./js/popper.js"> </script>
+<script src="./js/bootstrap.js"> </script>
 
 
 
@@ -50,7 +50,7 @@
                 <?php
                 if($_SESSION['username']){
                 ?>
- <li class="nav-item">
+                <li class="nav-item">
                     <a class="nav-link" href="./proflie.php">โปรไฟล์</a>
                 </li>
                 <li class="nav-item">
@@ -61,13 +61,16 @@
                 }else{
                 ?>
 
- <li class="nav-item">
+                <li class="nav-item">
+                    <a class="nav-link" href="./users.php">แสดงสมาชิก</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="./register.php">สมัครสมาชิก</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./login.php">เข้าสู่ระบบ</a>
                 </li>
-               
+
 
                 <?php
                 }
