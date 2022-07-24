@@ -23,7 +23,7 @@
                 <h1 style="color:red" class="text-center"> สมัครสมาชิก </h1>
 
 
-                <form action="reg_insert.php" method="POST">
+                <form action="reg_insert.php" method="POST" enctype="multipart/form-data">
                     Username:
                     <input type="text" name="username" class="form-control" />
                     Password:
@@ -36,6 +36,8 @@
                     <input type="text" name="email" class="form-control" />
                     ถิ่นที่อยู่:
                     <textarea name="address" row="4" class="form-control"></textarea>
+                    แนบไฟล์รูปภาพ
+                    <input type="file" name="uploadfile" class="form-control" />
 
                     <div class="pt-2 d-grid">
                         <input type="submit" value="บันทึกข้อมูล" class="btn btn-primary" />

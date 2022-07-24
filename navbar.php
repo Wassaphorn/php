@@ -2,6 +2,7 @@
     session_start();
     
 ?>
+<meta charset="UTF-8">
 <link rel="stylesheet" href="./css/bootstrap.css" />
 <script src="./js/popper.js"> </script>
 <script src="./js/bootstrap.js"> </script>
